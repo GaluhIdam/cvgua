@@ -12,7 +12,7 @@
           class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
       </div>
     </div>
-    <div class="album py-5 bg-light mt-10 mb-5">
+    <div class="album py-5 bg-light mt-15 mb-5">
       <div class="container">
         <h4 class="pb-2 border-bottom text-center">- Web & Mobile App -
         </h4>

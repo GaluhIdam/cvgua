@@ -12816,7 +12816,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "album py-5 bg-light mt-10 mb-5" }, [
+    return _c("div", { staticClass: "album py-5 bg-light mt-15 mb-5" }, [
       _c("div", { staticClass: "container" }, [
         _c("h4", { staticClass: "pb-2 border-bottom text-center" }, [
           _vm._v("- Web & Mobile App -\n      "),
