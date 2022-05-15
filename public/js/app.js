@@ -11837,7 +11837,7 @@ var staticRenderFns = [
     return _c(
       "button",
       { staticClass: "btn btn-outline-primary rounded-pill" },
-      [_c("i", { staticClass: "bi bi-chat-dots-fill" }), _vm._v(" Hubungi")]
+      [_c("i", { staticClass: "fa-solid fa-comment-dots" }), _vm._v(" Hubungi")]
     )
   },
 ]

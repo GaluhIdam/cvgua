@@ -23,7 +23,7 @@
           <a class="nav-link" href="#">Kontak</a>
         </li>
       </ul>
-      <button class="btn btn-outline-primary rounded-pill"><i class="bi bi-chat-dots-fill"></i> Hubungi</button>
+      <button class="btn btn-outline-primary rounded-pill"><i class="fa-solid fa-comment-dots"></i> Hubungi</button>
     </div>
   </div>
 </nav>
