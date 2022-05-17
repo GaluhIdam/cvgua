@@ -17,10 +17,10 @@
           <router-link :to="{name: 'desain'}" class="nav-link">Desain</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Tentang</a>
+          <router-link :to="{name: 'tentang'}" class="nav-link">Tentang</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Kontak</a>
+          <router-link :to="{name: 'kontak'}" class="nav-link">Kontak</router-link>
         </li>
       </ul>
       <button class="btn btn-outline-primary rounded-pill"><i class="fa-solid fa-comment-dots"></i> Hubungi</button>

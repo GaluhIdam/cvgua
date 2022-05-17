@@ -6,6 +6,8 @@ Vue.use(VueRouter);
 import Beranda from '../view/Beranda';
 import Proyek from '../view/Proyek';
 import Desain from '../view/Desain';
+import Tentang from '../view/Tentang';
+import Kontak from '../view/Kontak';
 
 let routes = [
   {
@@ -27,7 +29,17 @@ let routes = [
     name: 'desain',
     path: '/desain',
     component: Desain
-  }
+  },
+  {
+    name: 'tentang',
+    path: '/tentang',
+    component: Tentang
+  },
+  {
+    name: 'kontak',
+    path: '/kontak',
+    component: Kontak
+  },
 ]
 
 const router = new VueRouter({
