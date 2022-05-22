@@ -5570,6 +5570,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -5627,6 +5632,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -5642,133 +5651,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -6117,6 +5999,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -6132,6 +6019,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
+//
+//
 //
 //
 //
@@ -12246,238 +12138,295 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _vm._m(0),
-    _vm._v(" "),
-    _c("div", { staticClass: "container px-4 py-5 mt-10" }, [
-      _c("h4", { staticClass: "pb-2 border-bottom text-center" }, [
-        _vm._v("- Berita Terbaru -\n        "),
+  return _c(
+    "div",
+    [
+      _c("navbar"),
+      _vm._v(" "),
+      _c("div", [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("div", { staticClass: "container px-4 py-5 mt-10" }, [
+          _c("h4", { staticClass: "pb-2 border-bottom text-center" }, [
+            _vm._v("- Berita Terbaru -\n            "),
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5",
+            },
+            [
+              _c("div", { staticClass: "col" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "card card-cover h-100 overflow-hidden text-white bg-dark shadow-sm",
+                    staticStyle: {
+                      "border-radius": "25px",
+                      "background-image":
+                        "url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg')",
+                    },
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "d-flex flex-column h-100 p-5 pb-3 text-white",
+                      },
+                      [
+                        _c(
+                          "h2",
+                          {
+                            staticClass:
+                              "pt-5 mt-5 mb-4 display-6 lh-1 fw-bold",
+                          },
+                          [
+                            _vm._v(
+                              "\n                                Short title, long jacket\n                            "
+                            ),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "ul",
+                          { staticClass: "d-flex list-unstyled mt-auto" },
+                          [
+                            _vm._m(1),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              { staticClass: "d-flex align-items-center me-3" },
+                              [
+                                _c(
+                                  "svg",
+                                  {
+                                    staticClass: "bi me-2",
+                                    attrs: { width: "1em", height: "1em" },
+                                  },
+                                  [
+                                    _c("use", {
+                                      attrs: { "xlink:href": "#geo-fill" },
+                                    }),
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("small", [_vm._v("Earth")]),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              { staticClass: "d-flex align-items-center" },
+                              [
+                                _c(
+                                  "svg",
+                                  {
+                                    staticClass: "bi me-2",
+                                    attrs: { width: "1em", height: "1em" },
+                                  },
+                                  [
+                                    _c("use", {
+                                      attrs: { "xlink:href": "#calendar3" },
+                                    }),
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("small", [_vm._v("3d")]),
+                              ]
+                            ),
+                          ]
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "card card-cover h-100 overflow-hidden text-white bg-dark shadow-sm",
+                    staticStyle: {
+                      "border-radius": "25px",
+                      "background-image":
+                        "url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg')",
+                    },
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "d-flex flex-column h-100 p-5 pb-3 text-white",
+                      },
+                      [
+                        _c(
+                          "h2",
+                          {
+                            staticClass:
+                              "pt-5 mt-5 mb-4 display-6 lh-1 fw-bold",
+                          },
+                          [
+                            _vm._v(
+                              "\n                                Much longer title that wraps to multiple lines\n                            "
+                            ),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "ul",
+                          { staticClass: "d-flex list-unstyled mt-auto" },
+                          [
+                            _vm._m(2),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              { staticClass: "d-flex align-items-center me-3" },
+                              [
+                                _c(
+                                  "svg",
+                                  {
+                                    staticClass: "bi me-2",
+                                    attrs: { width: "1em", height: "1em" },
+                                  },
+                                  [
+                                    _c("use", {
+                                      attrs: { "xlink:href": "#geo-fill" },
+                                    }),
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("small", [_vm._v("Pakistan")]),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              { staticClass: "d-flex align-items-center" },
+                              [
+                                _c(
+                                  "svg",
+                                  {
+                                    staticClass: "bi me-2",
+                                    attrs: { width: "1em", height: "1em" },
+                                  },
+                                  [
+                                    _c("use", {
+                                      attrs: { "xlink:href": "#calendar3" },
+                                    }),
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("small", [_vm._v("4d")]),
+                              ]
+                            ),
+                          ]
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "card card-cover h-100 overflow-hidden text-white bg-dark shadow-sm",
+                    staticStyle: {
+                      "border-radius": "25px",
+                      "background-image":
+                        "url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg')",
+                    },
+                  },
+                  [
+                    _c(
+                      "div",
+                      { staticClass: "d-flex flex-column h-100 p-5 pb-3" },
+                      [
+                        _c(
+                          "h2",
+                          {
+                            staticClass:
+                              "pt-5 mt-5 mb-4 display-6 lh-1 fw-bold",
+                          },
+                          [
+                            _vm._v(
+                              "\n                                Another longer title belongs here\n                            "
+                            ),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "ul",
+                          { staticClass: "d-flex list-unstyled mt-auto" },
+                          [
+                            _vm._m(3),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              { staticClass: "d-flex align-items-center me-3" },
+                              [
+                                _c(
+                                  "svg",
+                                  {
+                                    staticClass: "bi me-2",
+                                    attrs: { width: "1em", height: "1em" },
+                                  },
+                                  [
+                                    _c("use", {
+                                      attrs: { "xlink:href": "#geo-fill" },
+                                    }),
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("small", [_vm._v("California")]),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "li",
+                              { staticClass: "d-flex align-items-center" },
+                              [
+                                _c(
+                                  "svg",
+                                  {
+                                    staticClass: "bi me-2",
+                                    attrs: { width: "1em", height: "1em" },
+                                  },
+                                  [
+                                    _c("use", {
+                                      attrs: { "xlink:href": "#calendar3" },
+                                    }),
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c("small", [_vm._v("5d")]),
+                              ]
+                            ),
+                          ]
+                        ),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
+            ]
+          ),
+        ]),
       ]),
       _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass:
-            "row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5",
-        },
-        [
-          _c("div", { staticClass: "col" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "card card-cover h-100 overflow-hidden text-white bg-dark shadow-sm",
-                staticStyle: {
-                  "border-radius": "25px",
-                  "background-image":
-                    "url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg')",
-                },
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass: "d-flex flex-column h-100 p-5 pb-3 text-white",
-                  },
-                  [
-                    _c(
-                      "h2",
-                      { staticClass: "pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" },
-                      [
-                        _vm._v(
-                          "\n                            Short title, long jacket\n                        "
-                        ),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("ul", { staticClass: "d-flex list-unstyled mt-auto" }, [
-                      _vm._m(1),
-                      _vm._v(" "),
-                      _c(
-                        "li",
-                        { staticClass: "d-flex align-items-center me-3" },
-                        [
-                          _c(
-                            "svg",
-                            {
-                              staticClass: "bi me-2",
-                              attrs: { width: "1em", height: "1em" },
-                            },
-                            [
-                              _c("use", {
-                                attrs: { "xlink:href": "#geo-fill" },
-                              }),
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c("small", [_vm._v("Earth")]),
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("li", { staticClass: "d-flex align-items-center" }, [
-                        _c(
-                          "svg",
-                          {
-                            staticClass: "bi me-2",
-                            attrs: { width: "1em", height: "1em" },
-                          },
-                          [_c("use", { attrs: { "xlink:href": "#calendar3" } })]
-                        ),
-                        _vm._v(" "),
-                        _c("small", [_vm._v("3d")]),
-                      ]),
-                    ]),
-                  ]
-                ),
-              ]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "card card-cover h-100 overflow-hidden text-white bg-dark shadow-sm",
-                staticStyle: {
-                  "border-radius": "25px",
-                  "background-image":
-                    "url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg')",
-                },
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass: "d-flex flex-column h-100 p-5 pb-3 text-white",
-                  },
-                  [
-                    _c(
-                      "h2",
-                      { staticClass: "pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" },
-                      [
-                        _vm._v(
-                          "\n                            Much longer title that wraps to multiple lines\n                        "
-                        ),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("ul", { staticClass: "d-flex list-unstyled mt-auto" }, [
-                      _vm._m(2),
-                      _vm._v(" "),
-                      _c(
-                        "li",
-                        { staticClass: "d-flex align-items-center me-3" },
-                        [
-                          _c(
-                            "svg",
-                            {
-                              staticClass: "bi me-2",
-                              attrs: { width: "1em", height: "1em" },
-                            },
-                            [
-                              _c("use", {
-                                attrs: { "xlink:href": "#geo-fill" },
-                              }),
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c("small", [_vm._v("Pakistan")]),
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("li", { staticClass: "d-flex align-items-center" }, [
-                        _c(
-                          "svg",
-                          {
-                            staticClass: "bi me-2",
-                            attrs: { width: "1em", height: "1em" },
-                          },
-                          [_c("use", { attrs: { "xlink:href": "#calendar3" } })]
-                        ),
-                        _vm._v(" "),
-                        _c("small", [_vm._v("4d")]),
-                      ]),
-                    ]),
-                  ]
-                ),
-              ]
-            ),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "card card-cover h-100 overflow-hidden text-white bg-dark shadow-sm",
-                staticStyle: {
-                  "border-radius": "25px",
-                  "background-image":
-                    "url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg')",
-                },
-              },
-              [
-                _c(
-                  "div",
-                  { staticClass: "d-flex flex-column h-100 p-5 pb-3" },
-                  [
-                    _c(
-                      "h2",
-                      { staticClass: "pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" },
-                      [
-                        _vm._v(
-                          "\n                            Another longer title belongs here\n                        "
-                        ),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c("ul", { staticClass: "d-flex list-unstyled mt-auto" }, [
-                      _vm._m(3),
-                      _vm._v(" "),
-                      _c(
-                        "li",
-                        { staticClass: "d-flex align-items-center me-3" },
-                        [
-                          _c(
-                            "svg",
-                            {
-                              staticClass: "bi me-2",
-                              attrs: { width: "1em", height: "1em" },
-                            },
-                            [
-                              _c("use", {
-                                attrs: { "xlink:href": "#geo-fill" },
-                              }),
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c("small", [_vm._v("California")]),
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("li", { staticClass: "d-flex align-items-center" }, [
-                        _c(
-                          "svg",
-                          {
-                            staticClass: "bi me-2",
-                            attrs: { width: "1em", height: "1em" },
-                          },
-                          [_c("use", { attrs: { "xlink:href": "#calendar3" } })]
-                        ),
-                        _vm._v(" "),
-                        _c("small", [_vm._v("5d")]),
-                      ]),
-                    ]),
-                  ]
-                ),
-              ]
-            ),
-          ]),
-        ]
-      ),
-    ]),
-  ])
+      _c("fotbar"),
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function () {
@@ -12506,7 +12455,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-lg-6 mx-auto" }, [
         _c("p", { staticClass: "lead mb-8" }, [
           _vm._v(
-            "\n                Quickly design and customize responsive mobile-first sites\n                with Bootstrap, the world’s most popular front-end open\n                source toolkit, featuring Sass variables and mixins,\n                responsive grid system, extensive prebuilt components, and\n                powerful JavaScript plugins.\n            "
+            "\n                    Quickly design and customize responsive mobile-first sites\n                    with Bootstrap, the world’s most popular front-end open\n                    source toolkit, featuring Sass variables and mixins,\n                    responsive grid system, extensive prebuilt components, and\n                    powerful JavaScript plugins.\n                "
           ),
         ]),
         _vm._v(" "),
@@ -12520,7 +12469,11 @@ var staticRenderFns = [
                 staticClass: "btn btn-primary btn-lg px-4 gap-3",
                 attrs: { type: "button" },
               },
-              [_vm._v("\n                    Secondary\n                ")]
+              [
+                _vm._v(
+                  "\n                        Secondary\n                    "
+                ),
+              ]
             ),
             _vm._v(" "),
             _c(
@@ -12529,7 +12482,11 @@ var staticRenderFns = [
                 staticClass: "btn btn-outline-secondary btn-lg px-4",
                 attrs: { type: "button" },
               },
-              [_vm._v("\n                    Secondary\n                ")]
+              [
+                _vm._v(
+                  "\n                        Secondary\n                    "
+                ),
+              ]
             ),
           ]
         ),
@@ -12607,46 +12564,56 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container px-4 py-5 mt-10" }, [
-    _vm._m(0),
-    _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
-    _c("div", { staticClass: "row featurette mt-5 mb-5" }, [
-      _vm._m(2),
+  return _c(
+    "div",
+    [
+      _c("navbar"),
       _vm._v(" "),
-      _c("div", { staticClass: "col-md-5" }, [
-        _c(
-          "svg",
-          {
-            staticClass:
-              "bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto",
-            attrs: {
-              width: "500",
-              height: "500",
-              xmlns: "http://www.w3.org/2000/svg",
-              role: "img",
-              "aria-label": "Placeholder: 500x500",
-              preserveAspectRatio: "xMidYMid slice",
-              focusable: "false",
-            },
-          },
-          [
-            _c("title", [_vm._v("Placeholder")]),
-            _vm._v(" "),
-            _c("rect", {
-              attrs: { width: "100%", height: "100%", fill: "#eee" },
-            }),
+      _c("div", { staticClass: "container px-4 py-5 mt-10" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _c("div", { staticClass: "row featurette mt-5 mb-5" }, [
+          _vm._m(2),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-5" }, [
             _c(
-              "text",
-              { attrs: { x: "50%", y: "50%", fill: "#aaa", dy: ".3em" } },
-              [_vm._v("500x500")]
+              "svg",
+              {
+                staticClass:
+                  "bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto",
+                attrs: {
+                  width: "500",
+                  height: "500",
+                  xmlns: "http://www.w3.org/2000/svg",
+                  role: "img",
+                  "aria-label": "Placeholder: 500x500",
+                  preserveAspectRatio: "xMidYMid slice",
+                  focusable: "false",
+                },
+              },
+              [
+                _c("title", [_vm._v("Placeholder")]),
+                _vm._v(" "),
+                _c("rect", {
+                  attrs: { width: "100%", height: "100%", fill: "#eee" },
+                }),
+                _c(
+                  "text",
+                  { attrs: { x: "50%", y: "50%", fill: "#aaa", dy: ".3em" } },
+                  [_vm._v("500x500")]
+                ),
+              ]
             ),
-          ]
-        ),
+          ]),
+        ]),
       ]),
-    ]),
-  ])
+      _vm._v(" "),
+      _c("fotbar"),
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function () {
@@ -12762,7 +12729,11 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    [_c("navbar"), _vm._v(" "), _vm._m(0), _vm._v(" "), _c("fotbar")],
+    1
+  )
 }
 var staticRenderFns = [
   function () {
@@ -12770,14 +12741,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container mt-10 p-4" }, [
-      _c("div", { staticClass: "py-5 text-center" }, [
-        _c("h2", { staticClass: "fw-bold" }, [_vm._v("Kontak Saya")]),
-        _vm._v(" "),
-        _c("p", { staticClass: "lead" }, [
-          _vm._v(
-            "Below is an example form built entirely with Bootstrap’s form controls. Each\n                required form group has a validation state that can be triggered by attempting to submit the\n                form without completing it."
-          ),
+      _c("div", { staticClass: "py-4 text-center" }, [
+        _c("h2", { staticClass: "display-5 fw-bold lh-1 text-primary" }, [
+          _c("i", { staticClass: "fa-solid fa-rocket" }),
+          _vm._v(" Kontak"),
         ]),
+        _vm._v(" "),
+        _c("hr", { staticClass: "my-4" }),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row g-5" }, [
@@ -12902,7 +12872,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-7 col-lg-8" }, [
-          _c("h4", { staticClass: "mb-3" }, [_vm._v("Billing address")]),
+          _c("h4", { staticClass: "fw-bold mb-3" }, [_vm._v("Kirim Pesan")]),
           _vm._v(" "),
           _c(
             "form",
@@ -12962,36 +12932,6 @@ var staticRenderFns = [
                 _c("div", { staticClass: "col-12" }, [
                   _c(
                     "label",
-                    { staticClass: "form-label", attrs: { for: "username" } },
-                    [_vm._v("Username")]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "input-group has-validation" }, [
-                    _c("span", { staticClass: "input-group-text" }, [
-                      _vm._v("@"),
-                    ]),
-                    _vm._v(" "),
-                    _c("input", {
-                      staticClass: "form-control",
-                      attrs: {
-                        type: "text",
-                        id: "username",
-                        placeholder: "Username",
-                        required: "",
-                      },
-                    }),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "invalid-feedback" }, [
-                      _vm._v(
-                        "\n                                    Your username is required.\n                                "
-                      ),
-                    ]),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-12" }, [
-                  _c(
-                    "label",
                     { staticClass: "form-label", attrs: { for: "email" } },
                     [
                       _vm._v("Email "),
@@ -13021,15 +12961,16 @@ var staticRenderFns = [
                   _c(
                     "label",
                     { staticClass: "form-label", attrs: { for: "address" } },
-                    [_vm._v("Address")]
+                    [_vm._v("Pesan")]
                   ),
                   _vm._v(" "),
-                  _c("input", {
+                  _c("textarea", {
                     staticClass: "form-control",
                     attrs: {
                       type: "text",
                       id: "address",
-                      placeholder: "1234 Main St",
+                      rows: "5",
+                      placeholder: "Hello, my name is...",
                       required: "",
                     },
                   }),
@@ -13040,327 +12981,6 @@ var staticRenderFns = [
                     ),
                   ]),
                 ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-12" }, [
-                  _c(
-                    "label",
-                    { staticClass: "form-label", attrs: { for: "address2" } },
-                    [
-                      _vm._v("Address 2 "),
-                      _c("span", { staticClass: "text-muted" }, [
-                        _vm._v("(Optional)"),
-                      ]),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "address2",
-                      placeholder: "Apartment or suite",
-                    },
-                  }),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-5" }, [
-                  _c(
-                    "label",
-                    { staticClass: "form-label", attrs: { for: "country" } },
-                    [_vm._v("Country")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "select",
-                    {
-                      staticClass: "form-select",
-                      attrs: { id: "country", required: "" },
-                    },
-                    [
-                      _c("option", { attrs: { value: "" } }, [
-                        _vm._v("Choose..."),
-                      ]),
-                      _vm._v(" "),
-                      _c("option", [_vm._v("United States")]),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "invalid-feedback" }, [
-                    _vm._v(
-                      "\n                                Please select a valid country.\n                            "
-                    ),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-4" }, [
-                  _c(
-                    "label",
-                    { staticClass: "form-label", attrs: { for: "state" } },
-                    [_vm._v("State")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "select",
-                    {
-                      staticClass: "form-select",
-                      attrs: { id: "state", required: "" },
-                    },
-                    [
-                      _c("option", { attrs: { value: "" } }, [
-                        _vm._v("Choose..."),
-                      ]),
-                      _vm._v(" "),
-                      _c("option", [_vm._v("California")]),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "invalid-feedback" }, [
-                    _vm._v(
-                      "\n                                Please provide a valid state.\n                            "
-                    ),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-3" }, [
-                  _c(
-                    "label",
-                    { staticClass: "form-label", attrs: { for: "zip" } },
-                    [_vm._v("Zip")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "zip",
-                      placeholder: "",
-                      required: "",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "invalid-feedback" }, [
-                    _vm._v(
-                      "\n                                Zip code required.\n                            "
-                    ),
-                  ]),
-                ]),
-              ]),
-              _vm._v(" "),
-              _c("hr", { staticClass: "my-4" }),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-check" }, [
-                _c("input", {
-                  staticClass: "form-check-input",
-                  attrs: { type: "checkbox", id: "same-address" },
-                }),
-                _vm._v(" "),
-                _c(
-                  "label",
-                  {
-                    staticClass: "form-check-label",
-                    attrs: { for: "same-address" },
-                  },
-                  [
-                    _vm._v(
-                      "Shipping address is the same as my\n                            billing address"
-                    ),
-                  ]
-                ),
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-check" }, [
-                _c("input", {
-                  staticClass: "form-check-input",
-                  attrs: { type: "checkbox", id: "save-info" },
-                }),
-                _vm._v(" "),
-                _c(
-                  "label",
-                  {
-                    staticClass: "form-check-label",
-                    attrs: { for: "save-info" },
-                  },
-                  [
-                    _vm._v(
-                      "Save this information for next\n                            time"
-                    ),
-                  ]
-                ),
-              ]),
-              _vm._v(" "),
-              _c("hr", { staticClass: "my-4" }),
-              _vm._v(" "),
-              _c("h4", { staticClass: "mb-3" }, [_vm._v("Payment")]),
-              _vm._v(" "),
-              _c("div", { staticClass: "my-3" }, [
-                _c("div", { staticClass: "form-check" }, [
-                  _c("input", {
-                    staticClass: "form-check-input",
-                    attrs: {
-                      id: "credit",
-                      name: "paymentMethod",
-                      type: "radio",
-                      checked: "",
-                      required: "",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-check-label",
-                      attrs: { for: "credit" },
-                    },
-                    [_vm._v("Credit card")]
-                  ),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-check" }, [
-                  _c("input", {
-                    staticClass: "form-check-input",
-                    attrs: {
-                      id: "debit",
-                      name: "paymentMethod",
-                      type: "radio",
-                      required: "",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-check-label",
-                      attrs: { for: "debit" },
-                    },
-                    [_vm._v("Debit card")]
-                  ),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "form-check" }, [
-                  _c("input", {
-                    staticClass: "form-check-input",
-                    attrs: {
-                      id: "paypal",
-                      name: "paymentMethod",
-                      type: "radio",
-                      required: "",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-check-label",
-                      attrs: { for: "paypal" },
-                    },
-                    [_vm._v("PayPal")]
-                  ),
-                ]),
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "row gy-3" }, [
-                _c("div", { staticClass: "col-md-6" }, [
-                  _c(
-                    "label",
-                    { staticClass: "form-label", attrs: { for: "cc-name" } },
-                    [_vm._v("Name on card")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "cc-name",
-                      placeholder: "",
-                      required: "",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c("small", { staticClass: "text-muted" }, [
-                    _vm._v("Full name as displayed on card"),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "invalid-feedback" }, [
-                    _vm._v(
-                      "\n                                Name on card is required\n                            "
-                    ),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-6" }, [
-                  _c(
-                    "label",
-                    { staticClass: "form-label", attrs: { for: "cc-number" } },
-                    [_vm._v("Credit card number")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "cc-number",
-                      placeholder: "",
-                      required: "",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "invalid-feedback" }, [
-                    _vm._v(
-                      "\n                                Credit card number is required\n                            "
-                    ),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-3" }, [
-                  _c(
-                    "label",
-                    {
-                      staticClass: "form-label",
-                      attrs: { for: "cc-expiration" },
-                    },
-                    [_vm._v("Expiration")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "cc-expiration",
-                      placeholder: "",
-                      required: "",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "invalid-feedback" }, [
-                    _vm._v(
-                      "\n                                Expiration date required\n                            "
-                    ),
-                  ]),
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-md-3" }, [
-                  _c(
-                    "label",
-                    { staticClass: "form-label", attrs: { for: "cc-cvv" } },
-                    [_vm._v("CVV")]
-                  ),
-                  _vm._v(" "),
-                  _c("input", {
-                    staticClass: "form-control",
-                    attrs: {
-                      type: "text",
-                      id: "cc-cvv",
-                      placeholder: "",
-                      required: "",
-                    },
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "invalid-feedback" }, [
-                    _vm._v(
-                      "\n                                Security code required\n                            "
-                    ),
-                  ]),
-                ]),
               ]),
               _vm._v(" "),
               _c("hr", { staticClass: "my-4" }),
@@ -13368,39 +12988,18 @@ var staticRenderFns = [
               _c(
                 "button",
                 {
-                  staticClass: "w-100 btn btn-primary btn-lg",
+                  staticClass: "w-100 btn btn-primary",
                   attrs: { type: "submit" },
                 },
-                [_vm._v("Continue to checkout")]
+                [
+                  _c("i", { staticClass: "fa-solid fa-rocket" }),
+                  _vm._v(" Kirim\n                        Pesan"),
+                ]
               ),
             ]
           ),
         ]),
       ]),
-      _vm._v(" "),
-      _c(
-        "footer",
-        { staticClass: "my-5 pt-5 text-muted text-center text-small" },
-        [
-          _c("p", { staticClass: "mb-1" }, [
-            _vm._v("© 2017–2021 Company Name"),
-          ]),
-          _vm._v(" "),
-          _c("ul", { staticClass: "list-inline" }, [
-            _c("li", { staticClass: "list-inline-item" }, [
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Privacy")]),
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "list-inline-item" }, [
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Terms")]),
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "list-inline-item" }, [
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Support")]),
-            ]),
-          ]),
-        ]
-      ),
     ])
   },
 ]
@@ -13428,396 +13027,442 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "px-4 pt-5 my-5 text-center border-bottom mt-15" },
     [
-      _c("h1", { staticClass: "display-4 fw-bold" }, [
-        _vm._v("Pembuatan Aplikasi"),
-      ]),
-      _vm._v(" "),
-      _vm._m(0),
-      _vm._v(" "),
-      _vm._m(1),
-      _vm._v(" "),
-      _vm._m(2),
+      _c("navbar"),
       _vm._v(" "),
       _c(
         "div",
-        {
-          staticClass:
-            "row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-5 mb-5",
-        },
+        { staticClass: "px-4 pt-5 my-5 text-center border-bottom mt-15" },
         [
-          _c("div", { staticClass: "col" }, [
-            _c("div", { staticClass: "card shadow-sm" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "bd-placeholder-img card-img-top",
-                  attrs: {
-                    width: "100%",
-                    height: "225",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    role: "img",
-                    "aria-label": "Placeholder: Thumbnail",
-                    preserveAspectRatio: "xMidYMid slice",
-                    focusable: "false",
-                  },
-                },
-                [
-                  _c("title", [_vm._v("Placeholder")]),
-                  _vm._v(" "),
-                  _c("rect", {
-                    attrs: { width: "100%", height: "100%", fill: "#55595c" },
-                  }),
-                  _c(
-                    "text",
-                    {
-                      attrs: {
-                        x: "50%",
-                        y: "50%",
-                        fill: "#eceeef",
-                        dy: ".3em",
-                      },
-                    },
-                    [_vm._v("Thumbnail")]
-                  ),
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(3),
-            ]),
+          _c("h1", { staticClass: "display-4 fw-bold" }, [
+            _vm._v("Pembuatan Aplikasi"),
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col" }, [
-            _c("div", { staticClass: "card shadow-sm" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "bd-placeholder-img card-img-top",
-                  attrs: {
-                    width: "100%",
-                    height: "225",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    role: "img",
-                    "aria-label": "Placeholder: Thumbnail",
-                    preserveAspectRatio: "xMidYMid slice",
-                    focusable: "false",
-                  },
-                },
-                [
-                  _c("title", [_vm._v("Placeholder")]),
-                  _vm._v(" "),
-                  _c("rect", {
-                    attrs: { width: "100%", height: "100%", fill: "#55595c" },
-                  }),
-                  _c(
-                    "text",
-                    {
-                      attrs: {
-                        x: "50%",
-                        y: "50%",
-                        fill: "#eceeef",
-                        dy: ".3em",
-                      },
-                    },
-                    [_vm._v("Thumbnail")]
-                  ),
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(4),
-            ]),
-          ]),
+          _vm._m(0),
           _vm._v(" "),
-          _c("div", { staticClass: "col" }, [
-            _c("div", { staticClass: "card shadow-sm" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "bd-placeholder-img card-img-top",
-                  attrs: {
-                    width: "100%",
-                    height: "225",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    role: "img",
-                    "aria-label": "Placeholder: Thumbnail",
-                    preserveAspectRatio: "xMidYMid slice",
-                    focusable: "false",
-                  },
-                },
-                [
-                  _c("title", [_vm._v("Placeholder")]),
-                  _vm._v(" "),
-                  _c("rect", {
-                    attrs: { width: "100%", height: "100%", fill: "#55595c" },
-                  }),
-                  _c(
-                    "text",
-                    {
-                      attrs: {
-                        x: "50%",
-                        y: "50%",
-                        fill: "#eceeef",
-                        dy: ".3em",
-                      },
-                    },
-                    [_vm._v("Thumbnail")]
-                  ),
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(5),
-            ]),
-          ]),
+          _vm._m(1),
           _vm._v(" "),
-          _c("div", { staticClass: "col" }, [
-            _c("div", { staticClass: "card shadow-sm" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "bd-placeholder-img card-img-top",
-                  attrs: {
-                    width: "100%",
-                    height: "225",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    role: "img",
-                    "aria-label": "Placeholder: Thumbnail",
-                    preserveAspectRatio: "xMidYMid slice",
-                    focusable: "false",
-                  },
-                },
-                [
-                  _c("title", [_vm._v("Placeholder")]),
-                  _vm._v(" "),
-                  _c("rect", {
-                    attrs: { width: "100%", height: "100%", fill: "#55595c" },
-                  }),
-                  _c(
-                    "text",
-                    {
-                      attrs: {
-                        x: "50%",
-                        y: "50%",
-                        fill: "#eceeef",
-                        dy: ".3em",
-                      },
-                    },
-                    [_vm._v("Thumbnail")]
-                  ),
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(6),
-            ]),
-          ]),
+          _vm._m(2),
           _vm._v(" "),
-          _c("div", { staticClass: "col" }, [
-            _c("div", { staticClass: "card shadow-sm" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "bd-placeholder-img card-img-top",
-                  attrs: {
-                    width: "100%",
-                    height: "225",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    role: "img",
-                    "aria-label": "Placeholder: Thumbnail",
-                    preserveAspectRatio: "xMidYMid slice",
-                    focusable: "false",
-                  },
-                },
-                [
-                  _c("title", [_vm._v("Placeholder")]),
-                  _vm._v(" "),
-                  _c("rect", {
-                    attrs: { width: "100%", height: "100%", fill: "#55595c" },
-                  }),
+          _c(
+            "div",
+            {
+              staticClass:
+                "row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-5 mb-5",
+            },
+            [
+              _c("div", { staticClass: "col" }, [
+                _c("div", { staticClass: "card shadow-sm" }, [
                   _c(
-                    "text",
+                    "svg",
                     {
+                      staticClass: "bd-placeholder-img card-img-top",
                       attrs: {
-                        x: "50%",
-                        y: "50%",
-                        fill: "#eceeef",
-                        dy: ".3em",
+                        width: "100%",
+                        height: "225",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        role: "img",
+                        "aria-label": "Placeholder: Thumbnail",
+                        preserveAspectRatio: "xMidYMid slice",
+                        focusable: "false",
                       },
                     },
-                    [_vm._v("Thumbnail")]
+                    [
+                      _c("title", [_vm._v("Placeholder")]),
+                      _vm._v(" "),
+                      _c("rect", {
+                        attrs: {
+                          width: "100%",
+                          height: "100%",
+                          fill: "#55595c",
+                        },
+                      }),
+                      _c(
+                        "text",
+                        {
+                          attrs: {
+                            x: "50%",
+                            y: "50%",
+                            fill: "#eceeef",
+                            dy: ".3em",
+                          },
+                        },
+                        [_vm._v("Thumbnail")]
+                      ),
+                    ]
                   ),
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(7),
-            ]),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col" }, [
-            _c("div", { staticClass: "card shadow-sm" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "bd-placeholder-img card-img-top",
-                  attrs: {
-                    width: "100%",
-                    height: "225",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    role: "img",
-                    "aria-label": "Placeholder: Thumbnail",
-                    preserveAspectRatio: "xMidYMid slice",
-                    focusable: "false",
-                  },
-                },
-                [
-                  _c("title", [_vm._v("Placeholder")]),
                   _vm._v(" "),
-                  _c("rect", {
-                    attrs: { width: "100%", height: "100%", fill: "#55595c" },
-                  }),
+                  _vm._m(3),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col" }, [
+                _c("div", { staticClass: "card shadow-sm" }, [
                   _c(
-                    "text",
+                    "svg",
                     {
+                      staticClass: "bd-placeholder-img card-img-top",
                       attrs: {
-                        x: "50%",
-                        y: "50%",
-                        fill: "#eceeef",
-                        dy: ".3em",
+                        width: "100%",
+                        height: "225",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        role: "img",
+                        "aria-label": "Placeholder: Thumbnail",
+                        preserveAspectRatio: "xMidYMid slice",
+                        focusable: "false",
                       },
                     },
-                    [_vm._v("Thumbnail")]
+                    [
+                      _c("title", [_vm._v("Placeholder")]),
+                      _vm._v(" "),
+                      _c("rect", {
+                        attrs: {
+                          width: "100%",
+                          height: "100%",
+                          fill: "#55595c",
+                        },
+                      }),
+                      _c(
+                        "text",
+                        {
+                          attrs: {
+                            x: "50%",
+                            y: "50%",
+                            fill: "#eceeef",
+                            dy: ".3em",
+                          },
+                        },
+                        [_vm._v("Thumbnail")]
+                      ),
+                    ]
                   ),
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(8),
-            ]),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col" }, [
-            _c("div", { staticClass: "card shadow-sm" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "bd-placeholder-img card-img-top",
-                  attrs: {
-                    width: "100%",
-                    height: "225",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    role: "img",
-                    "aria-label": "Placeholder: Thumbnail",
-                    preserveAspectRatio: "xMidYMid slice",
-                    focusable: "false",
-                  },
-                },
-                [
-                  _c("title", [_vm._v("Placeholder")]),
                   _vm._v(" "),
-                  _c("rect", {
-                    attrs: { width: "100%", height: "100%", fill: "#55595c" },
-                  }),
+                  _vm._m(4),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col" }, [
+                _c("div", { staticClass: "card shadow-sm" }, [
                   _c(
-                    "text",
+                    "svg",
                     {
+                      staticClass: "bd-placeholder-img card-img-top",
                       attrs: {
-                        x: "50%",
-                        y: "50%",
-                        fill: "#eceeef",
-                        dy: ".3em",
+                        width: "100%",
+                        height: "225",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        role: "img",
+                        "aria-label": "Placeholder: Thumbnail",
+                        preserveAspectRatio: "xMidYMid slice",
+                        focusable: "false",
                       },
                     },
-                    [_vm._v("Thumbnail")]
+                    [
+                      _c("title", [_vm._v("Placeholder")]),
+                      _vm._v(" "),
+                      _c("rect", {
+                        attrs: {
+                          width: "100%",
+                          height: "100%",
+                          fill: "#55595c",
+                        },
+                      }),
+                      _c(
+                        "text",
+                        {
+                          attrs: {
+                            x: "50%",
+                            y: "50%",
+                            fill: "#eceeef",
+                            dy: ".3em",
+                          },
+                        },
+                        [_vm._v("Thumbnail")]
+                      ),
+                    ]
                   ),
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(9),
-            ]),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col" }, [
-            _c("div", { staticClass: "card shadow-sm" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "bd-placeholder-img card-img-top",
-                  attrs: {
-                    width: "100%",
-                    height: "225",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    role: "img",
-                    "aria-label": "Placeholder: Thumbnail",
-                    preserveAspectRatio: "xMidYMid slice",
-                    focusable: "false",
-                  },
-                },
-                [
-                  _c("title", [_vm._v("Placeholder")]),
                   _vm._v(" "),
-                  _c("rect", {
-                    attrs: { width: "100%", height: "100%", fill: "#55595c" },
-                  }),
+                  _vm._m(5),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col" }, [
+                _c("div", { staticClass: "card shadow-sm" }, [
                   _c(
-                    "text",
+                    "svg",
                     {
+                      staticClass: "bd-placeholder-img card-img-top",
                       attrs: {
-                        x: "50%",
-                        y: "50%",
-                        fill: "#eceeef",
-                        dy: ".3em",
+                        width: "100%",
+                        height: "225",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        role: "img",
+                        "aria-label": "Placeholder: Thumbnail",
+                        preserveAspectRatio: "xMidYMid slice",
+                        focusable: "false",
                       },
                     },
-                    [_vm._v("Thumbnail")]
+                    [
+                      _c("title", [_vm._v("Placeholder")]),
+                      _vm._v(" "),
+                      _c("rect", {
+                        attrs: {
+                          width: "100%",
+                          height: "100%",
+                          fill: "#55595c",
+                        },
+                      }),
+                      _c(
+                        "text",
+                        {
+                          attrs: {
+                            x: "50%",
+                            y: "50%",
+                            fill: "#eceeef",
+                            dy: ".3em",
+                          },
+                        },
+                        [_vm._v("Thumbnail")]
+                      ),
+                    ]
                   ),
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(10),
-            ]),
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col" }, [
-            _c("div", { staticClass: "card shadow-sm" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "bd-placeholder-img card-img-top",
-                  attrs: {
-                    width: "100%",
-                    height: "225",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    role: "img",
-                    "aria-label": "Placeholder: Thumbnail",
-                    preserveAspectRatio: "xMidYMid slice",
-                    focusable: "false",
-                  },
-                },
-                [
-                  _c("title", [_vm._v("Placeholder")]),
                   _vm._v(" "),
-                  _c("rect", {
-                    attrs: { width: "100%", height: "100%", fill: "#55595c" },
-                  }),
+                  _vm._m(6),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col" }, [
+                _c("div", { staticClass: "card shadow-sm" }, [
                   _c(
-                    "text",
+                    "svg",
                     {
+                      staticClass: "bd-placeholder-img card-img-top",
                       attrs: {
-                        x: "50%",
-                        y: "50%",
-                        fill: "#eceeef",
-                        dy: ".3em",
+                        width: "100%",
+                        height: "225",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        role: "img",
+                        "aria-label": "Placeholder: Thumbnail",
+                        preserveAspectRatio: "xMidYMid slice",
+                        focusable: "false",
                       },
                     },
-                    [_vm._v("Thumbnail")]
+                    [
+                      _c("title", [_vm._v("Placeholder")]),
+                      _vm._v(" "),
+                      _c("rect", {
+                        attrs: {
+                          width: "100%",
+                          height: "100%",
+                          fill: "#55595c",
+                        },
+                      }),
+                      _c(
+                        "text",
+                        {
+                          attrs: {
+                            x: "50%",
+                            y: "50%",
+                            fill: "#eceeef",
+                            dy: ".3em",
+                          },
+                        },
+                        [_vm._v("Thumbnail")]
+                      ),
+                    ]
                   ),
-                ]
-              ),
+                  _vm._v(" "),
+                  _vm._m(7),
+                ]),
+              ]),
               _vm._v(" "),
-              _vm._m(11),
-            ]),
-          ]),
+              _c("div", { staticClass: "col" }, [
+                _c("div", { staticClass: "card shadow-sm" }, [
+                  _c(
+                    "svg",
+                    {
+                      staticClass: "bd-placeholder-img card-img-top",
+                      attrs: {
+                        width: "100%",
+                        height: "225",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        role: "img",
+                        "aria-label": "Placeholder: Thumbnail",
+                        preserveAspectRatio: "xMidYMid slice",
+                        focusable: "false",
+                      },
+                    },
+                    [
+                      _c("title", [_vm._v("Placeholder")]),
+                      _vm._v(" "),
+                      _c("rect", {
+                        attrs: {
+                          width: "100%",
+                          height: "100%",
+                          fill: "#55595c",
+                        },
+                      }),
+                      _c(
+                        "text",
+                        {
+                          attrs: {
+                            x: "50%",
+                            y: "50%",
+                            fill: "#eceeef",
+                            dy: ".3em",
+                          },
+                        },
+                        [_vm._v("Thumbnail")]
+                      ),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _vm._m(8),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col" }, [
+                _c("div", { staticClass: "card shadow-sm" }, [
+                  _c(
+                    "svg",
+                    {
+                      staticClass: "bd-placeholder-img card-img-top",
+                      attrs: {
+                        width: "100%",
+                        height: "225",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        role: "img",
+                        "aria-label": "Placeholder: Thumbnail",
+                        preserveAspectRatio: "xMidYMid slice",
+                        focusable: "false",
+                      },
+                    },
+                    [
+                      _c("title", [_vm._v("Placeholder")]),
+                      _vm._v(" "),
+                      _c("rect", {
+                        attrs: {
+                          width: "100%",
+                          height: "100%",
+                          fill: "#55595c",
+                        },
+                      }),
+                      _c(
+                        "text",
+                        {
+                          attrs: {
+                            x: "50%",
+                            y: "50%",
+                            fill: "#eceeef",
+                            dy: ".3em",
+                          },
+                        },
+                        [_vm._v("Thumbnail")]
+                      ),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _vm._m(9),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col" }, [
+                _c("div", { staticClass: "card shadow-sm" }, [
+                  _c(
+                    "svg",
+                    {
+                      staticClass: "bd-placeholder-img card-img-top",
+                      attrs: {
+                        width: "100%",
+                        height: "225",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        role: "img",
+                        "aria-label": "Placeholder: Thumbnail",
+                        preserveAspectRatio: "xMidYMid slice",
+                        focusable: "false",
+                      },
+                    },
+                    [
+                      _c("title", [_vm._v("Placeholder")]),
+                      _vm._v(" "),
+                      _c("rect", {
+                        attrs: {
+                          width: "100%",
+                          height: "100%",
+                          fill: "#55595c",
+                        },
+                      }),
+                      _c(
+                        "text",
+                        {
+                          attrs: {
+                            x: "50%",
+                            y: "50%",
+                            fill: "#eceeef",
+                            dy: ".3em",
+                          },
+                        },
+                        [_vm._v("Thumbnail")]
+                      ),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _vm._m(10),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col" }, [
+                _c("div", { staticClass: "card shadow-sm" }, [
+                  _c(
+                    "svg",
+                    {
+                      staticClass: "bd-placeholder-img card-img-top",
+                      attrs: {
+                        width: "100%",
+                        height: "225",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        role: "img",
+                        "aria-label": "Placeholder: Thumbnail",
+                        preserveAspectRatio: "xMidYMid slice",
+                        focusable: "false",
+                      },
+                    },
+                    [
+                      _c("title", [_vm._v("Placeholder")]),
+                      _vm._v(" "),
+                      _c("rect", {
+                        attrs: {
+                          width: "100%",
+                          height: "100%",
+                          fill: "#55595c",
+                        },
+                      }),
+                      _c(
+                        "text",
+                        {
+                          attrs: {
+                            x: "50%",
+                            y: "50%",
+                            fill: "#eceeef",
+                            dy: ".3em",
+                          },
+                        },
+                        [_vm._v("Thumbnail")]
+                      ),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _vm._m(11),
+                ]),
+              ]),
+            ]
+          ),
         ]
       ),
-    ]
+      _vm._v(" "),
+      _c("fotbar"),
+    ],
+    1
   )
 }
 var staticRenderFns = [
@@ -13828,7 +13473,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-lg-6 mx-auto" }, [
       _c("p", { staticClass: "lead mb-4" }, [
         _vm._v(
-          "Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most\n      popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive\n      prebuilt components, and powerful JavaScript plugins."
+          "Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most\n        popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive\n        prebuilt components, and powerful JavaScript plugins."
         ),
       ]),
     ])
@@ -13866,7 +13511,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "album py-5 bg-light mt-15 mb-5" }, [
       _c("div", { staticClass: "container" }, [
         _c("h4", { staticClass: "pb-2 border-bottom text-center" }, [
-          _vm._v("- Web & Mobile App -\n      "),
+          _vm._v("- Web & Mobile App -\n        "),
         ]),
       ]),
     ])
@@ -13878,7 +13523,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-body" }, [
       _c("p", { staticClass: "card-text" }, [
         _vm._v(
-          "This is a wider card with supporting text below as a natural lead-in to additional\n            content. This content is a little bit longer."
+          "This is a wider card with supporting text below as a natural lead-in to additional\n              content. This content is a little bit longer."
         ),
       ]),
       _vm._v(" "),
@@ -13918,7 +13563,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-body" }, [
       _c("p", { staticClass: "card-text" }, [
         _vm._v(
-          "This is a wider card with supporting text below as a natural lead-in to additional\n            content. This content is a little bit longer."
+          "This is a wider card with supporting text below as a natural lead-in to additional\n              content. This content is a little bit longer."
         ),
       ]),
       _vm._v(" "),
@@ -13958,7 +13603,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-body" }, [
       _c("p", { staticClass: "card-text" }, [
         _vm._v(
-          "This is a wider card with supporting text below as a natural lead-in to additional\n            content. This content is a little bit longer."
+          "This is a wider card with supporting text below as a natural lead-in to additional\n              content. This content is a little bit longer."
         ),
       ]),
       _vm._v(" "),
@@ -13998,7 +13643,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-body" }, [
       _c("p", { staticClass: "card-text" }, [
         _vm._v(
-          "This is a wider card with supporting text below as a natural lead-in to additional\n            content. This content is a little bit longer."
+          "This is a wider card with supporting text below as a natural lead-in to additional\n              content. This content is a little bit longer."
         ),
       ]),
       _vm._v(" "),
@@ -14038,7 +13683,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-body" }, [
       _c("p", { staticClass: "card-text" }, [
         _vm._v(
-          "This is a wider card with supporting text below as a natural lead-in to additional\n            content. This content is a little bit longer."
+          "This is a wider card with supporting text below as a natural lead-in to additional\n              content. This content is a little bit longer."
         ),
       ]),
       _vm._v(" "),
@@ -14078,7 +13723,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-body" }, [
       _c("p", { staticClass: "card-text" }, [
         _vm._v(
-          "This is a wider card with supporting text below as a natural lead-in to additional\n            content. This content is a little bit longer."
+          "This is a wider card with supporting text below as a natural lead-in to additional\n              content. This content is a little bit longer."
         ),
       ]),
       _vm._v(" "),
@@ -14118,7 +13763,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-body" }, [
       _c("p", { staticClass: "card-text" }, [
         _vm._v(
-          "This is a wider card with supporting text below as a natural lead-in to additional\n            content. This content is a little bit longer."
+          "This is a wider card with supporting text below as a natural lead-in to additional\n              content. This content is a little bit longer."
         ),
       ]),
       _vm._v(" "),
@@ -14158,7 +13803,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-body" }, [
       _c("p", { staticClass: "card-text" }, [
         _vm._v(
-          "This is a wider card with supporting text below as a natural lead-in to additional\n            content. This content is a little bit longer."
+          "This is a wider card with supporting text below as a natural lead-in to additional\n              content. This content is a little bit longer."
         ),
       ]),
       _vm._v(" "),
@@ -14198,7 +13843,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "card-body" }, [
       _c("p", { staticClass: "card-text" }, [
         _vm._v(
-          "This is a wider card with supporting text below as a natural lead-in to additional\n            content. This content is a little bit longer."
+          "This is a wider card with supporting text below as a natural lead-in to additional\n              content. This content is a little bit longer."
         ),
       ]),
       _vm._v(" "),
@@ -14254,150 +13899,131 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "col-lg-8 mx-auto p-3 py-md-5 mt-10" }, [
-      _c(
-        "header",
-        { staticClass: "d-flex align-items-center pb-3 mb-5 border-bottom" },
-        [
-          _c(
-            "a",
-            {
-              staticClass:
-                "d-flex align-items-center text-dark text-decoration-none",
-              attrs: { href: "/" },
-            },
-            [
-              _c(
-                "svg",
-                {
-                  staticClass: "me-2",
-                  attrs: {
-                    xmlns: "http://www.w3.org/2000/svg",
-                    width: "40",
-                    height: "32",
-                    viewBox: "0 0 448 512",
-                  },
-                },
-                [
-                  _c("path", {
-                    attrs: {
-                      d: "M176 448C167.3 448 160 455.3 160 464V512h32v-48C192 455.3 184.8 448 176 448zM272 448c-8.75 0-16 7.25-16 16s7.25 16 16 16s16-7.25 16-16S280.8 448 272 448zM164 172l8.205 24.62c1.215 3.645 6.375 3.645 7.59 0L188 172l24.62-8.203c3.646-1.219 3.646-6.375 0-7.594L188 148L179.8 123.4c-1.215-3.648-6.375-3.648-7.59 0L164 148L139.4 156.2c-3.646 1.219-3.646 6.375 0 7.594L164 172zM336.1 315.4C304 338.6 265.1 352 224 352s-80.03-13.43-112.1-36.59C46.55 340.2 0 403.3 0 477.3C0 496.5 15.52 512 34.66 512H128v-64c0-17.75 14.25-32 32-32h128c17.75 0 32 14.25 32 32v64h93.34C432.5 512 448 496.5 448 477.3C448 403.3 401.5 340.2 336.1 315.4zM64 224h13.5C102.3 280.5 158.4 320 224 320s121.8-39.5 146.5-96H384c8.75 0 16-7.25 16-16v-96C400 103.3 392.8 96 384 96h-13.5C345.8 39.5 289.6 0 224 0S102.3 39.5 77.5 96H64C55.25 96 48 103.3 48 112v96C48 216.8 55.25 224 64 224zM104 136C104 113.9 125.5 96 152 96h144c26.5 0 48 17.88 48 40V160c0 53-43 96-96 96h-48c-53 0-96-43-96-96V136z",
-                    },
-                  }),
-                ]
-              ),
-              _vm._v(" "),
-              _c("span", { staticClass: "fs-4 fw-bold" }, [
-                _vm._v("Tentang Saya"),
-              ]),
-            ]
-          ),
-        ]
-      ),
-      _vm._v(" "),
-      _vm._m(0),
-    ]),
-  ])
+  return _c(
+    "div",
+    [_c("navbar"), _vm._v(" "), _vm._m(0), _vm._v(" "), _c("fotbar")],
+    1
+  )
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("main", [
-      _c("h1", [_vm._v("Galuh Idam")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "fs-5 col-md-8" }, [
-        _vm._v(
-          "Quickly and easily get started with Bootstrap's compiled, production-ready\n                files with this barebones example featuring some basic HTML and helpful links. Download all our\n                examples to get started."
-        ),
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "mb-5" }, [
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "mx-auto p-3 py-md-5 mt-10" }, [
         _c(
-          "a",
-          {
-            staticClass: "btn btn-primary btn-lg px-4",
-            attrs: { href: "/docs/5.0/examples/" },
-          },
-          [_vm._v("Download examples")]
+          "header",
+          { staticClass: "d-flex align-items-center pb-3 mb-5 border-bottom" },
+          [
+            _c("h1", { staticClass: "text-primary fw-bold mb-0" }, [
+              _c("i", { staticClass: "fa-solid fa-user-astronaut" }),
+              _vm._v(" Tentang Saya\n                "),
+            ]),
+          ]
         ),
-      ]),
-      _vm._v(" "),
-      _c("hr", { staticClass: "col-3 col-md-2 mb-5" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "row g-5" }, [
-        _c("div", { staticClass: "col-md-6" }, [
-          _c("h2", [_vm._v("Starter projects")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Ready to beyond the starter template? Check out these open source projects that you can\n                        quickly duplicate to a new GitHub repository."
-            ),
-          ]),
-          _vm._v(" "),
-          _c("ul", { staticClass: "icon-list" }, [
-            _c("li", [
-              _c(
-                "a",
-                {
-                  attrs: {
-                    href: "https://github.com/twbs/bootstrap-npm-starter",
-                    rel: "noopener",
-                    target: "_blank",
-                  },
-                },
-                [_vm._v("Bootstrap npm starter")]
-              ),
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "text-muted" }, [
-              _vm._v("Bootstrap Parcel starter (coming soon!)"),
-            ]),
-          ]),
-        ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c("h2", [_vm._v("Guides")]),
+        _c("main", [
+          _c("h1", [_vm._v("Galuh Idam")]),
           _vm._v(" "),
-          _c("p", [
+          _c("p", { staticClass: "fs-5 col-md-8" }, [
             _vm._v(
-              "Read more detailed instructions and documentation on using or contributing to Bootstrap."
+              "Quickly and easily get started with Bootstrap's compiled, production-ready\n                    files with this barebones example featuring some basic HTML and helpful links. Download all our\n                    examples to get started."
             ),
           ]),
           _vm._v(" "),
-          _c("ul", { staticClass: "icon-list" }, [
-            _c("li", [
-              _c(
-                "a",
-                { attrs: { href: "/docs/5.0/getting-started/introduction/" } },
-                [_vm._v("Bootstrap quick start guide")]
-              ),
+          _c("div", { staticClass: "mb-5" }, [
+            _c(
+              "a",
+              {
+                staticClass: "btn btn-primary btn-lg px-4",
+                attrs: { href: "/docs/5.0/examples/" },
+              },
+              [_vm._v("Download examples")]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("hr", { staticClass: "col-3 col-md-2 mb-5" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "row g-5" }, [
+            _c("div", { staticClass: "col-md-6" }, [
+              _c("h2", [_vm._v("Starter projects")]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Ready to beyond the starter template? Check out these open source projects that you can\n                            quickly duplicate to a new GitHub repository."
+                ),
+              ]),
+              _vm._v(" "),
+              _c("ul", { staticClass: "icon-list" }, [
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://github.com/twbs/bootstrap-npm-starter",
+                        rel: "noopener",
+                        target: "_blank",
+                      },
+                    },
+                    [_vm._v("Bootstrap npm starter")]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "text-muted" }, [
+                  _vm._v("Bootstrap Parcel starter (coming soon!)"),
+                ]),
+              ]),
             ]),
             _vm._v(" "),
-            _c("li", [
-              _c(
-                "a",
-                { attrs: { href: "/docs/5.0/getting-started/webpack/" } },
-                [_vm._v("Bootstrap Webpack guide")]
-              ),
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c(
-                "a",
-                { attrs: { href: "/docs/5.0/getting-started/parcel/" } },
-                [_vm._v("Bootstrap Parcel guide")]
-              ),
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c(
-                "a",
-                { attrs: { href: "/docs/5.0/getting-started/build-tools/" } },
-                [_vm._v("Contributing to Bootstrap")]
-              ),
+            _c("div", { staticClass: "col-md-6" }, [
+              _c("h2", [_vm._v("Guides")]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Read more detailed instructions and documentation on using or contributing to Bootstrap.\n                        "
+                ),
+              ]),
+              _vm._v(" "),
+              _c("ul", { staticClass: "icon-list" }, [
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "/docs/5.0/getting-started/introduction/",
+                      },
+                    },
+                    [_vm._v("Bootstrap quick start guide")]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "/docs/5.0/getting-started/webpack/" } },
+                    [_vm._v("Bootstrap Webpack guide")]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "/docs/5.0/getting-started/parcel/" } },
+                    [_vm._v("Bootstrap Parcel guide")]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: { href: "/docs/5.0/getting-started/build-tools/" },
+                    },
+                    [_vm._v("Contributing to Bootstrap")]
+                  ),
+                ]),
+              ]),
             ]),
           ]),
         ]),
