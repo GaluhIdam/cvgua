@@ -13,6 +13,9 @@ import CMSPesan from '../view/Cmspesan';
 import CMSProyek from '../view/Cmsproyek';
 import CMSDesain from '../view/Cmsdesain';
 import CMSTentang from '../view/CMStentang';
+import AddDesain from '../view/AddDesain';
+import AddProyek from '../view/AddProyek';
+import viewProyek from '../view/viewProyek';
 
 let routes = [
   {
@@ -69,6 +72,21 @@ let routes = [
     name: 'cmstentang',
     path: '/cmstentang',
     component: CMSTentang
+  },
+  {
+    name: 'addproyek',
+    path: '/addproyek',
+    component: AddProyek
+  },
+  {
+    name: 'adddesain',
+    path: '/adddesain',
+    component: AddDesain
+  },
+  {
+    name: 'viewproyek',
+    path: '/viewproyek',
+    component: viewProyek
   },
 ]
 

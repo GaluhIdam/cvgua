@@ -16,6 +16,9 @@
         .mt-15 {
             margin-top: 9rem !important;
         }
+        .text-justify {
+            text-align: justify;
+        }
 
     </style>
 </head>

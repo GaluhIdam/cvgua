@@ -53,6 +53,7 @@
         </div>
       </div>
     </div>
+    <fotbar></fotbar>
   </div>
 </template>
 
