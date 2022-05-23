@@ -1,7 +1,9 @@
 import { main } from '@popperjs/core';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import CKEditor from 'ckeditor4-vue';
 Vue.use(VueRouter);
+Vue.use(CKEditor);
 
 import Beranda from '../view/Beranda';
 import Proyek from '../view/Proyek';
