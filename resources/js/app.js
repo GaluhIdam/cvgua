@@ -11,6 +11,7 @@ import router from './router'
 
 Vue.component('navbar', require('./components/Header.vue').default);
 Vue.component('fotbar', require('./components/Footer.vue').default);
+Vue.component('topbar', require('./components/Topbar.vue').default);
 
 const app = new Vue({
     el: '#app',

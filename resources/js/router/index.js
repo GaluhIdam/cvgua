@@ -8,6 +8,11 @@ import Proyek from '../view/Proyek';
 import Desain from '../view/Desain';
 import Tentang from '../view/Tentang';
 import Kontak from '../view/Kontak';
+import CMSUtama from '../view/Cmsutama';
+import CMSPesan from '../view/Cmspesan';
+import CMSProyek from '../view/Cmsproyek';
+import CMSDesain from '../view/Cmsdesain';
+import CMSTentang from '../view/CMStentang';
 
 let routes = [
   {
@@ -39,6 +44,31 @@ let routes = [
     name: 'kontak',
     path: '/kontak',
     component: Kontak
+  },
+  {
+    name: 'cmsutama',
+    path: '/cmsutama',
+    component: CMSUtama
+  },
+  {
+    name: 'cmspesan',
+    path: '/cmspesan',
+    component: CMSPesan
+  },
+  {
+    name: 'cmsproyek',
+    path: '/cmsproyek',
+    component: CMSProyek
+  },
+  {
+    name: 'cmsdesain',
+    path: '/cmsdesain',
+    component: CMSDesain
+  },
+  {
+    name: 'cmstentang',
+    path: '/cmstentang',
+    component: CMSTentang
   },
 ]
 
